@@ -16,9 +16,4 @@ public record Ticket(int ticketNumber, Timestamp timestamp) {
     public Timestamp getTimestamp() {
         return timestamp;
     }
-
-    @Override
-    public String toString() {
-        return "Ticket #" + ticketNumber + "/ Timestamp: " + timestamp;
-    }
 }
