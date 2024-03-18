@@ -1,6 +1,7 @@
 package org.example;
 
 import java.sql.Timestamp;
+
 public record Ticket(int ticketNumber, Timestamp timestamp) {
     public Ticket{
         if(ticketNumber < 0) {
